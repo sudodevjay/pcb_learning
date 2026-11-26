@@ -1,0 +1,9 @@
+Designator,Qty,Part,Value/MPN,Notes
+U_REL1,1,Relay driver,ULN2803A,8-channel Darlington low-side driver; use first 4 channels
+K1-K4,4,Relay,12V coil SPDT relay,Choose contact rating for load; common examples are Songle SRD-12VDC-SL-C or equivalent
+J_RLY1-J_RLY4,4,Terminal block,3-pin 5.08mm,Relay dry contact output: COM/NO/NC
+R_LED1-R_LED4,4,Resistor,4.7k 0805,Relay indicator current limit from +12V_RAW
+D_RLY1-D_RLY4,4,LED,0805 LED,Relay ON indicator; optional if using panel LEDs
+TP_RELAY1-TP_RELAY4,4,Test point,GPIO test pad,Optional relay control debug pads
+TP_12V,1,Test point,+12V_RAW,Optional
+TP_GND,1,Test point,DC_GND,Optional
