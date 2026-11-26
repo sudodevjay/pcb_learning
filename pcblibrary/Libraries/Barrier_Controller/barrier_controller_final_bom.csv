@@ -1,0 +1,89 @@
+Ref,Qty,Description,Part / Package,Library / Notes
+U1,1,MCU STM32F446VET6 (Cortex-M4),LQFP-100,STM32F446VET6.IntLib
+U_ETH,1,Ethernet controller W5500 (SPI),LQFP-48,W5500.IntLib
+J10,1,RJ45 with integrated magnetics,HR911105A,HR911105A.IntLib
+Y_MCU,1,Crystal 8 MHz,HC-49S / SMD,CSTNE8M00G55A000R0.IntLib
+Y_ETH,1,Crystal 25 MHz SMD 2 pin (W5500),SMD 2 pin,Use "Crystal 25 Mhz SMD 2 pin" from your earlier LAN project (D:\pcb\QR SCANNER NEW, LAN 485 project). Same part used there with W5500.
+C_Y_MCU,2,Capacitor 20 pF,0603,
+C_Y_ETH,2,Capacitor 22 pF,0603,
+U2,1,3-phase gate driver DRV8302,DRV8302 package per datasheet,pcb_library TI DRV8302 symbol (check footprint)
+Q1,1,N-MOSFET high-side U (IRFZ44N or IRF3205),TO-220,Not in library by name. Use IRF TO-263-7 or add TO-220 part.
+Q2,1,N-MOSFET low-side U,TO-220,Same
+Q3,1,N-MOSFET high-side V,TO-220,Same
+Q4,1,N-MOSFET low-side V,TO-220,Same
+Q5,1,N-MOSFET high-side W,TO-220,Same
+Q6,1,N-MOSFET low-side W,TO-220,Same
+R_G,6,Gate resistor 10 Ω,0805,
+R_GPD,6,Gate pull-down 10 kΩ,0603,
+D_BOOT,3,Bootstrap diode 1N4148W (or as DRV8302 datasheet),SOD-80,DIODE 1N4148W SOD-80 (library)
+C_BOOT,3,Bootstrap capacitor (per DRV8302 datasheet),0805,
+R_SHUNT,1,Current shunt 0.005–0.01 Ω 2 W,2512,Low side on motor return; value after current known
+U_AMP,1,Current sense amplifier INA180A,SOT-23-5,pcb_library INA180A DBV symbol
+U_BUCK5,1,Buck 24V to 5V 3A,LM2596S-5.0,LM2596S-5.0.IntLib
+L_BUCK,1,Inductor for LM2596 (33–68 µH, per datasheet),Inductor THT,
+D_BUCK,1,Schottky diode 3A 40V for LM2596 (SS34),SMA,SS34.IntLib
+U_LDO,1,LDO 5V to 3.3V,AMS1117-3.3,AMS1117-3.3.IntLib
+U_RS485,1,RS485 transceiver 3.3V,MAX3485EESA,MAX3485EESA_.IntLib
+U_OPTO1,2,Optocoupler (LOOP and IR inputs),EL817S1,OPTOCOUPLER EL817S1.IntLib
+RELAY_K3,1,Relay 24V coil SPDT 10 A (power cutoff),HF115F-024 (24V coil),HF115F_005-1HS3BF_610_.IntLib footprint/symbol. Order 24V coil variant.
+RELAY_K4,1,Relay 24V coil SPDT 10 A (limit / traffic light),HF115F-024,Same
+RELAY_K5,1,Relay 24V coil SPDT 10 A (alarm / lock),HF115F-024,Same
+Q_BZ,1,NPN transistor BC848C,SOT-23,NPN SOT-23 SMT BC848C_RFG.IntLib
+Q_K3,1,NPN transistor BC848C,SOT-23,Same
+Q_K4,1,NPN transistor BC848C,SOT-23,Same
+Q_K5,1,NPN transistor BC848C,SOT-23,Same
+D_FLY,4,Flyback diode 1N4148W,SOD-80,Relay coils (3) and buzzer
+D_RF_PROT,1,Schottky BAT54C (optional),SOT-23,Diode_schottky_sot23_BAT54C.IntLib
+D1,1,Reverse polarity Schottky SS34,SMA,SS34.IntLib
+F1,1,Fuse 2 A with holder,5x20 mm,FUSE HOLDER 5x20 Schurter 0031.8201.IntLib
+F2,1,Fuse 10–20 A (1.5 x stall current),5x20 mm or blade,Check motor stall current
+TVS1,8,TVS diode (24V and field lines and RS485),SMAJ24A or TVS_BiDir,Check available 24V part
+FB1,1,Ferrite bead 600 Ω,0805,FB_0805 BLM21AG331SN1D.IntLib
+BUZZER,1,Buzzer 5V active,12 mm,pcb_library Buzzer (CUI CSS-0575A-SMT)
+LED1,1,LED status 3 mm or 0805,0805,LED-0805.IntLib
+SW1,1,Tact switch SMD 6x6 mm,PUSHBUTTON_SMD_6 x 6 mm,PUSHBUTTON_SMD_6 x 6 mm, 6.5 mm.IntLib
+SW2,1,Tact switch SMD 6x6 mm,PUSHBUTTON_SMD_6 x 6 mm,Same
+SW3,1,Tact switch SMD 6x6 mm,PUSHBUTTON_SMD_6 x 6 mm,Same
+SW4,1,Tact switch SMD 6x6 mm,PUSHBUTTON_SMD_6 x 6 mm,Same
+R_IN_PU,12,Resistor 10 kΩ,0603,Inputs and buttons pull-ups
+R_HALL_PU,3,Resistor 10 kΩ,0603,Hall pull-ups
+R_HALL_SER,3,Resistor 1 kΩ,0603,Hall series
+R_LED,1,Resistor 680 Ω,0603,LED
+R_BASE,4,Resistor 1 kΩ,0603,Transistor bases (buzzer, K3, K4, K5)
+R_RF,1,Resistor 1 kΩ,0603,RF data series
+R_FILT,2,Resistor 1 kΩ,0603,ADC RC filter
+C_FILT,2,Ceramic 100 nF,0603,ADC RC filter
+R_DIV_TOP,1,Resistor 100 kΩ 1%,0805,24V sense
+R_DIV_BOT,1,Resistor 10 kΩ 1%,0805,24V sense
+R_NRST,1,Resistor 10 kΩ,0603,NRST pull-up
+R_BOOT0,1,Resistor 10 kΩ,0603,BOOT0 pull-down
+R_EN_GATE,1,Resistor 10 kΩ,0603,EN_GATE pull-down
+R_NFAULT,1,Resistor 10 kΩ,0603,nFAULT pull-up
+R_LCD_BL,1,Resistor 100 Ω,0603,LCD backlight series
+R_LCD_BASE,1,Resistor 1 kΩ,0603,LCD backlight transistor base
+Q_LCD_BL,1,NPN transistor BC848C,SOT-23,LCD backlight driver
+R_TERM_RS485,1,Resistor 120 Ω (optional),0603,RS485 bus termination jumper
+RJ45_SHIELD_R,1,Resistor 75 Ω,0603,RJ45 shield
+RJ45_SHIELD_C,1,Capacitor 4.7 nF 2 kV,1808,RJ45 shield
+C_DEC,16,Ceramic 100 nF 50 V,0603,Per VDD pin, W5500, inputs
+C_BULK_3V3,2,Ceramic 10 µF 10 V,0805,3.3V rail
+C_5V,2,Electrolytic 100 µF 16 V,Radial,5V rail
+C_BULK_IN,1,Electrolytic 100 µF 50 V,Radial,24V input
+C_M,2,Electrolytic 220 µF 50 V,Radial,Motor bus bulk
+C_CER_M,2,Ceramic 100 nF 50 V,0805,Motor bus decoupling
+C_NRST,1,Ceramic 100 nF,0603,NRST
+C_RS485,1,Ceramic 100 nF,0603,MAX3485 VCC
+J1,1,Screw terminal 2-pin 5.08 mm,Terminal Block HDR 5MM THT RA (2 pin),Library
+J2,1,SWD header 2x3 2.54 mm,BOX HEADER or 2x3 header,Library
+J3,1,Screw terminal 3-pin 5.08 mm,Terminal Block HDR 5MM THT RA (3 pin),Motor U V W
+J4,1,Screw terminal 6-pin 5.08 mm,Terminal Block 5MM (6 pin or two 3-pin),Wire control and sensors
+J5,1,Screw terminal 2-pin 5.08 mm,Terminal Block HDR 5MM (2 pin),Limit switches
+J6,1,Screw terminal 3-pin 5.08 mm,Terminal Block HDR 5MM (3 pin),Relay K4 output
+J7,1,Screw terminal 3-pin 5.08 mm,Terminal Block HDR 5MM (3 pin),RS485 A B GND
+J8,1,Header 1x3 2.54 mm,Amphenol 2.54 header,RF module
+J9,1,Header 1x5 2.54 mm,Amphenol 2.54 header,Hall sensor
+J11,1,Screw terminal 3-pin 5.08 mm,Terminal Block HDR 5MM (3 pin),Relay K5 output
+J12,1,Header 1x8 2.54 mm (socket for Nokia 5110),Amphenol 2.54 header,LCD connector
+ANT1,1,SMA edge-mount connector 433 MHz,SMA,pcb_library Linx CONREVSMA003 or Taoglas
+RF1,1,RF receiver module 433 MHz (decoded serial),Module,Customer supplied
+LCD1,1,Nokia 5110 LCD (PCD8544, 84x48, blue backlight),Module about 45x40 mm,Customer supplied, 3.3V
