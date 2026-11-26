@@ -1,0 +1,31 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [QR SCANNER.PrjPcb]
+   Generated File[QR SCANNER NEW_Copper_Signal_Top.gbr]
+   Generated File[QR SCANNER NEW_Copper_Signal_Bot.gbr]
+   Generated File[QR SCANNER NEW_Pads_Bot.gbr]
+   Generated File[QR SCANNER NEW_Pads_Top.gbr]
+   Generated File[QR SCANNER NEW_Legend_Top.gbr]
+   Generated File[QR SCANNER NEW_Legend_Bot.gbr]
+   Generated File[QR SCANNER NEW_Soldermask_Top.gbr]
+   Generated File[QR SCANNER NEW_Soldermask_Bot.gbr]
+   Generated File[QR SCANNER NEW_Paste_Top.gbr]
+   Generated File[QR SCANNER NEW_Paste_Bot.gbr]
+   Generated File[QR SCANNER NEW_Keep-out.gbr]
+   Generated File[QR SCANNER NEW_Mechanical_1.gbr]
+   Generated File[QR SCANNER NEW_Mechanical_13.gbr]
+   Generated File[QR SCANNER NEW_Mechanical_15.gbr]
+   Generated File[QR SCANNER NEW_Mechanical_20.gbr]
+   Generated File[QR SCANNER NEW_Profile.gbr]
+   Generated File[QR SCANNER NEW_NPTH_Drill.gbr]
+   Generated File[QR SCANNER NEW_PTH_Drill.gbr]
+   Generated File[QR SCANNER NEW_Drawing_1.gbr]
+   Generated File[QR SCANNER NEW_Drillmap_1.gbr]
+   Generated File[QR SCANNER NEW.EXTREP]
+   Generated File[QR SCANNER NEW.REP]
+
+
+Files Generated   : 22
+Documents Printed : 0
+
+Finished Output Generation At 10:31:28 AM On 6/25/2026

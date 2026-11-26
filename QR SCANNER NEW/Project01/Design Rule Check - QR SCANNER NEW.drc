@@ -1,0 +1,76 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Varun\Desktop\BOM_7_2_26\QR SCANNER NEW\QR SCANNER NEW.PcbDoc
+Date     : 6/25/2026
+Time     : 10:13:24 AM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: GND_L01_P001
+   Polygon named: GND_L02_P002
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Track (0mm,0mm)(0mm,105mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (0mm,0mm)(130mm,0mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (0mm,105mm)(130mm,105mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (130mm,0mm)(130mm,105mm) on Top Layer Dead Copper - Net Not Assigned.
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L01_P001) on Top Layer 
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L02_P002) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.5mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.1mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+PCB Health Issue Category : Shelved/Modified Polygons
+   Shelved/Modified Polygon: Polygon Not Repour After Edit  (GND_L01_P001) on Top Layer (209.574mm,46.616mm)
+   Shelved/Modified Polygon: Polygon Not Repour After Edit  (GND_L02_P002) on Bottom Layer (99.283mm,161.214mm)
+Issues :2
+
+PCB Health Issue Category : Reference Point Outside the Component Area
+   Reference point outside the component area: SMT Small Component *1-HOUSTON_LOGO (8.636mm,40.64mm) on Top Layer
+Issues :1
+
+PCB Health Issue Category : Zero Area Polygons
+   Zero area polygon: Polygon Not Repour After Edit  (GND_L01_P001) on Top Layer (209.574mm,46.616mm)
+   Zero area polygon: Polygon Not Repour After Edit  (GND_L02_P002) on Bottom Layer (99.283mm,161.214mm)
+Issues :2
+
+
+Violations Detected : 6
+Waived Violations : 0
+PCB Health Issues : 5
+Time Elapsed        : 00:00:00

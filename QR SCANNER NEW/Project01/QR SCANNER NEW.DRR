@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: QR SCANNER NEW.PcbDoc   6/19/2026  3:10:36 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : QR SCANNER NEW-Plated.TXT
+ASCII Non-Plated RoundHoles File : QR SCANNER NEW-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             2         PTH        10.92mm (0.43inch)
+T2      0.3mm (12mil)                                             Round             102       PTH        914.52mm (36.00inch)
+T3      0.61mm (24mil)                                            Round             2         PTH        2.07mm (0.08inch)
+T4      0.9mm (35mil)                                             Round             8         PTH        18.08mm (0.71inch)
+T5      1mm (39mil)                                               Round             8         PTH        95.05mm (3.74inch)
+T6      1.02mm (40mil)                                            Round             4         PTH        7.62mm (0.30inch)
+T7      1.1mm (43mil)                                             Round             6         PTH        12.70mm (0.50inch)
+T8      1.17mm (46mil)                                            Round             1         PTH        0.00mm (0.00inch)
+T9      1.3mm (51mil)                                             Round             10        PTH        74.07mm (2.92inch)
+T10     1.4mm (55mil)                                             Round             8         PTH        36.29mm (1.43inch)
+T11     1.5mm (59mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T12     1.6mm (63mil)                                             Round             19        PTH        275.63mm (10.85inch)
+T13     3.25mm (128mil)                                           Round             2         NPTH       11.43mm (0.45inch)
+T14     3.75mm (148mil)                                           Round             4         NPTH       300.00mm (11.81inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              177
+
+Total Processing Time (hh:mm:ss) : 00:00:00
