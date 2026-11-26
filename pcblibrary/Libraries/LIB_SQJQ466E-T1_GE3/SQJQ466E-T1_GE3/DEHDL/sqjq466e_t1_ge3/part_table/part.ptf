@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SQJQ466E_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SQJQ466E-T1_GE3" (!) = "", "SQJQ466ET1_GE3", "Other", "78-SQJQ466E-T1_GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJQ466E-T1_GE3?qs=5aG0NVq1C4wZZxWgJuXbbg%3D%3D", "SQJQ466E-T1_GE3", "https://www.arrow.com/en/products/sqjq466e-t1-ge3/vishay.html?utm_currency=USD&region=nac", "VISHAY - SQJQ466E-T1_GE3 - MOSFET, AEC-Q101, N-CH, 60V, POWERPAK", "https://www.vishay.com/docs/75138/sqjq466e.pdf", "1.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32F767VIT6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32F767VIT6" (!) = "", "QFP50P1600X1600X160-100N", "Quad Flat Packages", "511-STM32F767VIT6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F767VIT6?qs=dTJS0cRn7oiBTN1BeGWDJA%3D%3D", "STM32F767VIT6", "https://www.arrow.com/en/products/stm32f767vit6/stmicroelectronics?region=nac", "Arm Cortex-M7 32b MCU+FPU, 462 DMIPS, up to 2 MB flash, 512+16+4 KB RAM, USB OTG HS/FS, 28 com. int., LCD, DSI", "https://www.st.com/resource/en/datasheet/stm32f765bi.pdf", "1.6 mm"
+END_PART
+
+END.

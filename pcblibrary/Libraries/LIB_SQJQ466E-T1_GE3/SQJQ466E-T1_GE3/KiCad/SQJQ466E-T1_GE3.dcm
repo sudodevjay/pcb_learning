@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJQ466E-T1_GE3
+D VISHAY - SQJQ466E-T1_GE3 - MOSFET, AEC-Q101, N-CH, 60V, POWERPAK
+K
+F https://www.vishay.com/docs/75138/sqjq466e.pdf
+$ENDCMP
+#
+#End Doc Library

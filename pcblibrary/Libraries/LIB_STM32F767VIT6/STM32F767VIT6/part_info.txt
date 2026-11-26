@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32F767VIT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=2.2
+Released=2017-07-31 13:34:14
+Downloaded=2026-11-21 05:01:17
+3D=Y

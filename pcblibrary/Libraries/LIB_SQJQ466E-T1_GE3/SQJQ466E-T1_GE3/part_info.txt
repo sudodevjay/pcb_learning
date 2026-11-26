@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SQJQ466E-T1_GE3
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=9
+Version=3.1
+Released=2018-11-20 16:54:34
+Downloaded=2026-11-21 05:04:45
+3D=Y
