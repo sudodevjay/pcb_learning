@@ -1,0 +1,17 @@
+pcblibrary/.git.bak/
+pcb_library/altium-library/.git.bak/
+
+# Altium backups / caches / installers (local only)
+pcb_library/altium_*backup*/
+pcb_library/altium_final_clean_reset_*/
+pcb_library/quarantine_*/
+*.msi
+# Large external library (2.5 GB, available from Celestial upstream)
+pcb_library/altium-library/
+# Altium auto-generated
+History/
+**/History/
+Project Logs for */
+__Previews/
+# Separate repo (sudodevjay/esp32p10display, branch altium_autotool)
+altium_autotool/
