@@ -6,8 +6,6 @@ pcb_library/altium_*backup*/
 pcb_library/altium_final_clean_reset_*/
 pcb_library/quarantine_*/
 *.msi
-# Large external library (2.5 GB, available from Celestial upstream)
-pcb_library/altium-library/
 # Altium auto-generated
 History/
 **/History/
